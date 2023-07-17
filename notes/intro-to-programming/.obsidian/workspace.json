@@ -11,8 +11,12 @@
             "id": "1f253b8f8e446eb9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2023-07-17.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2023-07-17.md"
+              }
             }
           }
         ],
@@ -115,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2023-07-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2023-07-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +167,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91b68a486fd3324b",
+  "active": "1f253b8f8e446eb9",
   "lastOpenFiles": [
+    "Pasted image 20230717164842.png",
+    "Pasted image 20230717164829.png",
+    "2023-07-17.md",
     "2023-07-16.md"
   ]
 }
