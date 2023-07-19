@@ -1,18 +1,17 @@
-﻿
+﻿namespace StringCalculatorKata;
 
-namespace StringCalculatorKata
+public class StringCalculator
 {
-    public class StringCalculator
+    public int Add(string numbers)
     {
-        public int Add(string numbers)
+        if (numbers == "")
         {
-            if (numbers.Contains(","))
-            {
-                var lhs = int.Parse(numbers.Substring(0, 1));
-                var rhs = int.Parse(numbers.Substring(2));
-                return lhs + rhs;
-            }
-            return numbers == "" ? 0 : int.Parse(numbers);
+            return 0;
         }
+
+
+        return numbers.Split(',') // ["108"]
+                .Select(int.Parse) // [ 108 ]
+                .Sum(); // Sum them up!
     }
 }
